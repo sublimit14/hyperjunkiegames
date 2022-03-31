@@ -1,0 +1,21 @@
+//Подключение reset.scss
+@import "reset";
+//Подключение переменных
+@import "var";
+//Подключение шрифтов
+@import "fonts";
+//Подключение глобальных настроек
+@import "settings";
+
+
+
+//Подключение стилей header & footer
+@import "layouts/header";
+@import "layouts/footer";
+
+//Подключение стилей блоков
+//@import "layouts/main-page";
+@import "layouts/blocks/hero-block";
+@import "layouts/blocks/about-us-block";
+@import "layouts/blocks/games-block";
+@import "layouts/blocks/contacts-block";

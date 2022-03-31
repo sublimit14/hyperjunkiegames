@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Kopenhagen';
+  src: url('fonts/Kopenhagen.ttf');
+  src: local('Kopenhagen'), local('Kopenhagen'),
+  url('fonts/Kopenhagen.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Co Text Corp';
+  src: url('fonts/CoTextCorp-Light.eot');
+  src: local('Co Text Corp Light'), local('CoTextCorp-Light'),
+  url('fonts/CoTextCorp-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/CoTextCorp-Light.woff2') format('woff2'),
+  url('fonts/CoTextCorp-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Co Text Corp';
+  src: url('CoTextCorp-Bold.eot');
+  src: local('Co Text Corp Bold'), local('CoTextCorp-Bold'),
+  url('fonts/CoTextCorp-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/CoTextCorp-Bold.woff2') format('woff2'),
+  url('fonts/CoTextCorp-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Co Headline Corp';
+  src: url('fonts/CoHeadlineCorp-Light.eot');
+  src: local('Co Headline Corp Light'), local('CoHeadlineCorp-Light'),
+  url('fonts/CoHeadlineCorp-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/CoHeadlineCorp-Light.woff2') format('woff2'),
+  url('fonts/CoHeadlineCorp-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Co Headline Corp';
+  src: url('fonts/CoHeadlineCorp-Bold.eot');
+  src: local('Co Headline Corp Bold'), local('CoHeadlineCorp-Bold'),
+  url('fonts/CoHeadlineCorp-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/CoHeadlineCorp-Bold.woff2') format('woff2'),
+  url('fonts/CoHeadlineCorp-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Co Headline Corp';
+  src: url('fonts/CoHeadlineCorp-Regular.eot');
+  src: local('Co Headline Corp'), local('CoHeadlineCorp-Regular'),
+  url('fonts/CoHeadlineCorp-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/CoHeadlineCorp-Regular.woff2') format('woff2'),
+  url('fonts/CoHeadlineCorp-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

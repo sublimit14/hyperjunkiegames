@@ -1,0 +1,104 @@
+.container-contacts {
+  background: linear-gradient(180deg, $color-bg 0%, $color-white 100%);
+  padding: 0 15px;
+  h2 {
+    font-family: 'Kopenhagen';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 93px;
+    color: $color-violet;
+    @media (max-width: 768px) {
+      font-size: 56px;
+    }
+  }
+}
+.contacts {
+  display: flex;
+  padding: 50px 0;
+  @media (max-width: 1040px) {
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+  &__left {
+    &-icons a {
+      display: inline-block;
+    }
+    &-icons {
+      margin-top: 30px;
+      display: flex;
+      @media (max-width: 768px){
+        justify-content: center;
+      }
+      *:not(:last-child){
+        margin-right: 10px;
+      }
+    }
+
+    p {
+      font-family: 'Co Headline Corp';
+      margin-top: 5px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 150%;
+      color: $color-black;
+      max-width: 506px;
+      @media (max-width: 768px) {
+        max-width: unset;
+      }
+    }
+
+  }
+  &__right {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 1200px) {
+      margin-left: 60px;
+    }
+    @media (max-width: 1040px) {
+      margin-left: 0;
+      margin-top: 30px;
+    }
+    &-tel {
+      font-family: 'Kopenhagen';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 62px;
+      color: $color-green;
+      text-decoration: none;
+      transition: color 0.2s ease-in-out;
+      &:hover {
+        color: $color-primary;
+      }
+      @media (max-width: 768px) {
+        font-size: 36px;
+      }
+    }
+    &-address {
+      margin-top: 5px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      color: $color-black;
+      text-decoration: none;
+      transition: color 0.2s ease-in-out;
+      &:hover {
+        color: $color-violet;
+      }
+    }
+  }
+  svg {
+    fill: $color-violet;
+    transition: fill .2s ease-in-out;
+  }
+  svg:hover {
+    fill: $color-green;
+  }
+}

@@ -1,0 +1,122 @@
+body {
+  font-family: 'Co Headline Corp';
+  background-color: $color-bg;
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+//-----Стилизация скроллбара------//
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e3e3e3;
+  border-radius: 6px;
+  //box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+//-----Стилизация скроллбара------//
+
+.container {
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 0 15px;
+  overflow: hidden;
+
+  h1 {
+    font-family: 'Kopenhagen';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+  }
+  h2 {
+    font-family: 'Kopenhagen';
+    font-style: normal;
+    font-weight: normal;
+  }
+  p {
+    font-family: 'Co Headline';
+    font-style: normal;
+    font-weight: 300;
+  }
+  @media (max-width: 1300px) {
+    
+  }
+}
+.nav-menu {
+  display: flex;
+  li:not(:last-child){
+    margin-right: 20px;
+  }
+  li a {
+    text-decoration: none;
+    font-style: normal;
+    color: $color-violet;
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: 18px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn__fill-dark {
+  background: $color-violet;
+}
+
+.btn__fill-light {
+  background: $color-green;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+//Стили для страницы policy
+
+.policy {
+  color: $color-black;
+  margin-top: 131px;
+  margin-bottom: 50px;
+  line-height: 1.3;
+  h1 {
+    font-family: 'Co Headline Corp';
+    margin-bottom: 30px;
+    font-size: 44px !important;
+    @media (max-width: 400px) {
+      font-size: 41px !important;
+      margin-bottom: 10px;
+    }
+  }
+  h2 {
+    font-family: 'Co Headline Corp';
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-family: 'Co Headline Corp';
+    font-size: 21px;
+    margin-bottom: 15px;
+  }
+  p {
+    font-family: 'Co Headline Corp';
+    margin-bottom: 15px;
+    opacity: .8;
+    line-height: 1.6;
+  }
+}
+.swiper-pagination-bullet-active {
+  background-color: $color-violet !important;
+}

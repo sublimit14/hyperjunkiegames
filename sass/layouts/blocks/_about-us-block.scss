@@ -1,0 +1,62 @@
+.container-about {
+  text-align: center;
+}
+.about {
+  padding: 75px 0;
+
+
+  
+  &__top {
+    h2 {
+      font-size: 72px;
+      line-height: 93px;
+      color: $color-violet;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: 'Co Headline Corp';
+      //max-width: 861px;
+      margin-bottom: 60px;
+      font-size: 20px;
+      line-height: 140%;
+      color: $color-black;
+      padding: 0 200px;
+      @media (max-width: 730px) {
+        padding: 0 60px;
+      }
+      @media (max-width: 518px) {
+        padding: 0 15px;
+      }
+    }
+  }
+
+
+  &__bottom {
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 570px) {
+      svg {
+        width: 186px;
+      }
+    }
+    @media (max-width: 858px) {
+      flex-wrap: wrap;
+    }
+    &-item {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        margin-top: 35px;
+        font-size: 22px;
+        line-height: 140%;
+        @media (max-width: 570px){
+          margin-top: 15px;
+        }
+      }
+    }
+    //&-item:not(:last-child){
+    //  margin-right: 150px;
+    //}
+  }
+}
